@@ -1,0 +1,45 @@
+.screen{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001f3f;
+}
+.email{
+    margin-right: 10px;
+    position: relative;
+    width: fit-content;
+    display: block;
+    	font-size: 4rem;
+        color: #fff;
+
+}
+.remail span{
+    position: absolute;
+    background-color: crimson;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+.remail {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: #fff;
+
+
+}
+
+.remail span:hover{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}

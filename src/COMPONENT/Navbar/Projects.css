@@ -1,0 +1,63 @@
+._div_{
+    background-color: #001f3f;
+    
+    /* To adjust the height as well */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    }
+
+    ._imag{
+        height: fit-content;
+        width: 20%;
+        background-color: transparent;
+        border-radius: 9px;
+        margin-right: 80px;
+        margin-bottom: 10px;
+        border-color: rgb(243, 230, 243);
+    }
+    ._imag img{
+        margin-top:0px;
+        border-radius: 7px;
+        padding-bottom: 10px;
+    }
+    
+    ._writings{
+        height:fit-content;
+        background-color: rgb(192, 192, 206);
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cards_{
+        display: flex;
+       width: 100%;
+       height: fit-content;
+       
+       flex-wrap: wrap;
+       justify-content: center;
+       border-radius: 7px;
+       
+
+       
+      
+
+       
+    }
+    .h_1{
+        margin-top: 90px;
+        color: #fff;
+    }
+    ._writings p{
+       width: fit-content;
+       height: fit-content;
+       margin-top: 5;
+    }
+    ._writings a{
+        margin-bottom: 10px;
+
+    }
